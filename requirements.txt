@@ -1,0 +1,2 @@
+# Some platforms look for requirements in the root directory of the project
+-r requirements/production.txt
