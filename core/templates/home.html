@@ -1,11 +1,5 @@
-<!-- core/templates/home.html -->
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>HarpIt!</title>
-    </head>
-    <body>
-        <h1>Playable harmonica tabs</h1>
-    </body>
-</html>
+{% extends 'base.html' %}
+
+{% block header_text %}HarpIt{% endblock %}
+
+{% block form_action %}/tabs/search/{% endblock %}
